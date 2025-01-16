@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsProject", "WebFormsProject\WebFormsProject.csproj", "{B6E949C3-6956-42EB-8601-E894CCCF65C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADONet", "ADONet\ADONet.csproj", "{D6811F7E-E795-4566-A41A-73E829C649A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{B6E949C3-6956-42EB-8601-E894CCCF65C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6E949C3-6956-42EB-8601-E894CCCF65C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6E949C3-6956-42EB-8601-E894CCCF65C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6811F7E-E795-4566-A41A-73E829C649A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6811F7E-E795-4566-A41A-73E829C649A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6811F7E-E795-4566-A41A-73E829C649A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6811F7E-E795-4566-A41A-73E829C649A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE1A0D9F-CB93-4BFB-B8CE-872F19BC45F2}
 	EndGlobalSection
 EndGlobal
